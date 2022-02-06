@@ -17,6 +17,6 @@ header h1 {
   color: #7C1A00;
   padding: 40px 40px 40px 120px;
   background-image: url("header-image-1.gif");
-  background-position: top-left;
+  background-position: left top;
   background-repeat: no-repeat;
 }
