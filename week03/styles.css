@@ -39,10 +39,8 @@ nav ul {
 
 nav li {
 margin: 10px;
-border-width: 1px;
-border-style: solid;
-border-color: #7C1A00;
-background-color: #FFE597  
+border: 1px solid #7C1A00;
+background-color: #FFE597;  
 } 
 
 nav a {
@@ -50,4 +48,20 @@ nav a {
   background-color: #8C9273;
   padding: 3px 60px 3px 3px;
   text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #7C1A00;
+}
+
+#content {
+  background-image: url("trans-bg.gif");
+  border: 1px solid #CCCCCC;
+  margin-left: 180px;
+  padding: 10px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
 }
