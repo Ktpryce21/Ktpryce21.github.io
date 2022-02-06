@@ -84,4 +84,22 @@ h2 {
 h3 {
   background-image: url("header-star-1.gif");
   background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+blockquote {
+  background-color: #FFE597;
+}
+
+ul {
+  list-style-type: square;
+}
+
+a {
+  color: #7C1A00;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #FFE597
 }
