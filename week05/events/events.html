@@ -3,14 +3,28 @@
 <head>
   <script>
       function showText(name) {
-          var myMessage = "Kapryce";
+          var myMessage = "Welcome";
           alert (myMessage);
         }
 </script>
+  <style>
+        button {
+            font-size: 1.1em;
+            background-color: #0ae6db;
+            color: #04000c;
+            border: 2px solid rgb(49, 6, 240);
+            box-shadow: 4px 4px 4px #999999;
+          }
+          button:hover, button:focus, button:active {
+            /* swap colors */
+            color: #EBF5FF;
+            background-color: #4312AE;
+            cursor: pointer; /* displays a hand */
+          }
+    </style>      
 </head>
 <body>
   <script>
-  document.write("Hello World!");
 <button onclick="showText()">Please click me</button>
   </script>
 </body>
