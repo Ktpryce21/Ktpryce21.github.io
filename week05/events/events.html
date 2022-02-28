@@ -1,15 +1,16 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
- <meta charset="UTF-8">
-  <title>Events</title>
-  <script>
-      function showText(name) {
-          var myMessage = "Welcome";
-          alert (myMessage);
+
+<!Doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Hello world</title>
+      <script>
+        function eat(sandwich) {
+          var myText = ("Eat a sandwich" + sandwich);
+          alert (myText);
         }
-</script>
-  <style>
+        </script>
+        <style>
         button {
             font-size: 1.1em;
             background-color: #0ae6db;
@@ -24,10 +25,13 @@
             cursor: pointer; /* displays a hand */
           }
     </style>      
-</head>
-<body>
-  <script>
-<button onclick="showText()">Please click me</button>
-  </script>
-</body>
-</h>
+   </head>
+   <body onload="myText()">
+     <script>
+       eat(); = Chicken Sandwich
+       </script>
+   
+    <button onclick="eat()">Please click to show alert</button>
+
+    </body>
+</html>
