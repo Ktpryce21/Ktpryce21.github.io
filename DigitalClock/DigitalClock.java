@@ -1,4 +1,14 @@
-import java.awt.BorderLayout;
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web Design 2: Javascript Clock</title>
+    <script>
+      
+     function updateTime() {
+
+  	// get all parts of the current time
+    import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -25,7 +35,7 @@ public class DigitalClock {
 		// Display the window
 		clockFrame.setLocationRelativeTo(null);
 		clockFrame.pack();
-		clockFrame.setVisible(true);
+		clockFrame.setVisible(true);.
 
 		int delay = 100;
 		Timer timer = new Timer(delay, new ActionListener() {
@@ -44,4 +54,28 @@ public class DigitalClock {
 
 	public static void main(String args[]) {
 		display();
-	}
+	}..
+    
+    </script>
+    
+  <style>
+    div#clock {
+      display: block;
+      margin: 10px;
+      padding: 10px;
+      width: 100px;
+      text-align: center;
+      font-family: franklin gothic;
+      color: black;
+      background-color: #F0FFFF;
+      border: 3px black;
+      border-style: solid;
+    }
+  </style>
+    
+  </head>
+  <body onload="setInterval('updateTime()',1000)">
+    <button onclick="toggleClock()" id="clockButton">Show clock</button>
+    <div id="clock"></div>
+  </body>
+</html>
